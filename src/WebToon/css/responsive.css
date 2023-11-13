@@ -1,0 +1,229 @@
+@media (max-width: 769px) {
+
+
+    body {
+        background-color: #000000;
+  
+    }
+    
+    .logo {
+        top: 200px;
+        left: 70px;
+        max-width: 60vw;
+        height: 13vh;
+        position: absolute;
+        top: 250px;
+    }
+    .conteudo-lee-seoyoung {
+        position: absolute;
+        width: 100vw;
+        height: 20vh;
+        left: 0;
+        top: 390px;
+        margin: 0;
+        display: flex;
+        
+        
+    }
+
+    .conteudo-lee-seoyoung .mt-genero:nth-child(1){
+        order: 2;
+    }
+
+    .conteudo-lee-seoyoung .nome-manga-lee-seoyoung:nth-child(2) {
+        order: 1;
+    }
+
+    .conteudo-lee-seoyoung .autor-titulo:nth-child(4){
+        order: 3;
+    }
+
+    .conteudo-lee-seoyoung .botao:nth-child(5) {
+        order: 4;
+    }
+
+    main .background-lee-seoyoung .imagem {
+        top: 0;
+        position: absolute;
+        left: 0;
+        height: 55vh;
+        width: 100vw;
+        filter: brightness(80%);
+    }
+
+    .descricao-lee-seoyoung {
+        display: none;
+        height: 300px;
+        font-size: 15px;
+        margin: 0;
+        width: 95vw;
+    }
+    .titulo-autor,
+    .titulo {
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .titulo {
+        color: #F13223;
+    }
+
+    .autor-titulo {
+        position: relative;
+        left: 10px;
+        font-size: 10px;
+        width: 90vw;
+        padding-bottom: 40px;
+    }
+    .nome-manga-lee-seoyoung {
+        font-size: 30px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .mt-genero {
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        margin: 0;
+        left: 0;
+        padding-bottom: 20px;
+
+    }
+
+    .wgen {
+        padding: 7px;
+    }
+    
+    .gradient {
+        display: none;
+    }
+    
+    main::after {
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: 0;
+        height: 20vh;
+        width: 100vw;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 39%);
+    }
+
+    .conteudo-wt {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 120vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47.5%, 20%);
+    }
+
+    .cabecalho{
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 15vh;
+        
+    }
+
+
+    .cb {
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding: 25px;
+
+
+    }
+
+    .capitulos {
+        position: absolute;
+        top: 130px;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .cap,
+    .cap0 {
+        font-size: 14px;
+        
+    }
+
+    .cap0 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #disqus_thread {
+        position: absolute;
+        width: 95vw;
+        height: 100vh;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47.5%, 150%);
+        
+    }
+
+    .home-icon {
+        display: block;
+        top: 0;
+        position: absolute;
+        left: 0;
+        width: 50px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .botao-des{
+        position: absolute;
+        background-color: #161616;
+        border: none;
+        left: 17px;
+        cursor: pointer;
+        padding: 14px;
+        width: 90vw;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        
+    }
+    .des{
+        color: #ffffff;
+        font-family: Arial;
+    }
+
+    .botao-des:hover {
+        background-color: #F13223;
+        border: solid 2px;
+        transition: 0.5s;
+
+    }
+
+
+}
+
+@media (min-width: 900px){
+    .botao-des{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .conteudo-wt{
+        top: 60vh;
+    }
+}

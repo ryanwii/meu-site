@@ -1,0 +1,127 @@
+@media (max-width: 769px) {
+    .rodape-site {
+        width: 100vw;
+
+    }
+
+    .rodape1 {
+        
+        font-size: 10px;
+    }
+
+    .rodape
+    .cont {
+        display: none;
+        left: 0;
+        top: 80px;
+        font-size: 10px;
+    
+    }
+
+    .nome-logo {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .titulo-site {
+        position: absolute;
+        left: 50px;
+        width: 80vw;
+        font-size: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 270px;
+        width: 70px;
+    }
+
+    .conteudo {
+        left: 0;
+        width: 100vw;
+        height: 172vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gifkir {
+        position: relative;
+        width: 60px;
+    }
+
+    .text-apresentacao {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 10px;
+        height: 120px;
+        width: 95vw;
+
+    }
+
+    .apresentacao {
+        height: 150px;
+        display: flex;
+        width: 95vw;
+    }
+
+   
+    .logol.r,
+    .logol {
+        width: 250px;
+    }
+
+    .logol.r {
+        height: auto;
+    }
+
+    .content {
+        width: 95vw;
+        height: 550px;
+        left: 9px;
+    }
+
+    .content1{
+        top: 100vh;
+        width: 95vw;
+        height: 550px;
+        left: 9px;
+    }
+
+    .tt-wt {
+        font-size: 25px;
+    }
+
+    .generos {
+        padding: 0;
+        display: flex;
+        width: 90vw;
+        font-size: 10px;
+    }
+
+    .gen {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 5px;
+        margin-left: 7px;
+    }
+
+    .capal {
+        width: 90vw;
+    }
+
+    
+
+    .atv {
+    width: 200px;        
+    }
+
+    .livro {
+        width: 50px;
+    }
+
+}
